@@ -1,0 +1,90 @@
+.showcase-area {
+    padding: 32px 128px;
+    border-radius: 20px;
+    margin: 32px;
+    backdrop-filter: blur(8px);
+    margin-top: 100px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.sae-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.content-container {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    margin-top: 64px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.skills>div {
+    background: #FFF;
+    border-radius: 15px;
+    padding: 8px 32px;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    color: #7D005C;
+}
+
+.resource-container {
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.resource-card {
+    display: flex;
+    flex-direction: column;
+    background: rgb(244 72 72 / 50%);
+    padding: 32px;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+}
+
+.resource-card:hover{
+    transform: scale(1.1);
+}
+
+.learning-link {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.learning-link:hover {
+    border-bottom-color: #f04bff;
+    color: #4281f5;
+    opacity: 0.8;
+}
